@@ -1,121 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-*{
+
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color:#FFFFFF;
+    color: #FFFFFF;
     font-family: 'Poppins';
-    }
+}
 
-    body{
-        background-image:url(./pag3.jfif);
-        background-size: cover;
-    }
-
-
-    nav{
-        display: flex;
-        gap: 40px;
-        text-align: center;
-        justify-content: center;
-        }
+body {
+    background-image: url(./pag3.jfif);
+    background-size: cover;
+}
 
 
-    .navMobile {
+nav {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.navMobile {
 
     display: none;
 
 
 }
 
-        button{
-            background:linear-gradient(#5de0e6,#004aad);
-            width: 150px;
-            height: 40px;
-            border-radius: 50px;
-            border: 4px solid black;
-            font-size: 15px;
-            margin-top: 20px;
-            color: black;
-            font-weight: bolder;
-            }
+button {
+    background: linear-gradient(#5de0e6, #004aad);
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: 4px solid black;
+    font-size: 15px;
+    margin-top: 20px;
+    color: black;
+    font-weight: bolder;
+}
 
-            button:hover{  text-decoration: none;
-                color: #FFFFFF;
-                cursor: pointer;
-                border: #FFFFFF
-                }
+button:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: #FFFFFF
+}
 
 
-            .cursos{
-                margin-top: 50px;
-                margin-bottom: 82px;
-                text-align: center;
-                justify-content: center;
-            }
-h2{
+.cursos {
+    margin-top: 50px;
+    margin-bottom: 82px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
     text-align: center;
     justify-content: center;
     font-size: 35px;
 }
-.line{
-display: inline-flex;
-gap: 40px;
-margin-top: 40px;
+
+.line {
+    display: inline-flex;
+    gap: 40px;
+    margin-top: 40px;
 
 
 }
 
-.imgCurso{
+.imgCurso {
 
-border: solid 4px black;
-height: 180px;
-padding: 5px;
-background-color: #FFFFFF;
+    border: solid 4px black;
+    height: 180px;
+    padding: 5px;
+    background-color: #FFFFFF;
 }
-img{
+
+img {
     height: 160px;
     width: 155px;
 }
-.description{
+
+.description {
     background-color: #FFFFFF;
     width: 600px;
     height: 180px;
     border: solid 4px black;
     padding: 10px;
-    
-   
+
+
 
 }
-p{
+
+p {
     color: black;
     text-align: left;
     font-size: 18px;
     margin-bottom: 10px;
-    
+
 }
 
-.buttons{
+.buttons {
 
     margin: auto;
     display: flex;
     gap: 20px;
 }
 
-.join{
+.join {
     background: #00bf63;
     color: black;
     font-weight: bolder;
 }
-.showAll{
+
+.showAll {
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
     margin-top: 25px;
 }
-b{
+
+b {
     color: black;
 }
 
@@ -129,11 +138,12 @@ footer {
     height: 50px;
     background-color: #202020;
 
-  
+
 
 
 }
-a{
+
+a {
     margin-top: 4px;
 }
 
@@ -174,7 +184,7 @@ a{
     margin-top: 8px;
     display: inline-flex;
     gap: 10px;
-     color: rgb(10, 100, 198);
+    color: rgb(10, 100, 198);
 
 }
 
@@ -190,14 +200,14 @@ a{
     display: inline-flex;
     margin-top: 8px;
     gap: 10px;
-     color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .bi-browser-edge {
     display: inline-flex;
     margin-top: 8px;
     gap: 10px;
-     color: #004aad;
+    color: #004aad;
 }
 
 
@@ -224,8 +234,8 @@ a{
 
 
 
-@media screen and (max-width: 700px){
-  nav {
+@media screen and (max-width: 700px) {
+    nav {
         /*display: block;*/
         display: none;
     }
@@ -234,7 +244,7 @@ a{
         display: grid;
     }
 
-       .list {
+    .list {
         display: grid;
         margin: auto;
         background-color: black;
@@ -272,33 +282,37 @@ a{
 
 
 
-    h2{
-background-color: black;
-opacity: 0.8;
-width: 400px;
-margin-bottom: 20px;
-text-align: center;
-margin: auto;
-margin-bottom: 20px;
+    h2 {
+        background-color: black;
+        opacity: 0.8;
+        width: 400px;
+        margin-bottom: 20px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
 
-.line{
-    margin-top: 50px;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    
-    width: 80vw;
-}
-p{
-    font-size: 14px;
-}
-.buttons{
-    margin-bottom: 20px;
-}
+    .line {
+        margin-top: 50px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+
+        width: 80vw;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .buttons {
+        margin-bottom: 20px;
+        margin-left: -40px;
+        gap:0px;
+    }
 
 
     footer {
@@ -338,12 +352,12 @@ p{
         font-size: 12px;
         justify-content: center;
         margin-top: 1px;
-        margin-bottom: -4px;
+        margin-bottom: -7px;
         margin-left: 157px;
         margin-right: 35px;
 
     }
 
 
-    
+
 }
