@@ -244,6 +244,8 @@ a {
         display: grid;
     }
 
+   
+
     .list {
         display: grid;
         margin: auto;
@@ -290,6 +292,7 @@ a {
         text-align: center;
         margin: auto;
         margin-bottom: 20px;
+        margin-top: -50px;
     }
 
 
