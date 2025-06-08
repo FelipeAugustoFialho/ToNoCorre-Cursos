@@ -310,8 +310,9 @@ a {
 
     .buttons {
         margin-bottom: 20px;
-        margin-left: -40px;
+        margin-left: -66px;
         gap:0px;
+        margin-top: -40px;
     }
 
 
