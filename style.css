@@ -185,6 +185,7 @@ a {
     display: inline-flex;
     gap: 10px;
     color: rgb(10, 100, 198);
+ margin-left: 10px;
 
 }
 
@@ -332,12 +333,12 @@ a {
     }
 
     a {
-        margin-left: 60px;
+        margin-left: 40px;
     }
 
     .pFooter {
         font-size: 12px;
-        margin-left: 48px;
+        margin-left: 30px;
         margin-top: -22px;
     }
 
@@ -345,8 +346,8 @@ a {
         font-size: 12px;
         justify-content: center;
         margin-top: -27px;
-        margin-left: 189px;
-        margin-right: 36px;
+        margin-left: 167px;
+        margin-right: 0px;
 
 
     }
@@ -357,8 +358,8 @@ a {
         justify-content: center;
         margin-top: 1px;
         margin-bottom: -7px;
-        margin-left: 157px;
-        margin-right: 35px;
+        margin-left: 150px;
+        margin-right: 0px;
 
     }
 
