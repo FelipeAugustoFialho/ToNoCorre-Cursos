@@ -21,6 +21,14 @@
         justify-content: center;
         }
 
+
+    .navMobile {
+
+    display: none;
+
+
+}
+
         button{
             background:linear-gradient(#5de0e6,#004aad);
             width: 150px;
@@ -140,28 +148,129 @@ a{
     font-family: Poppins;
 }
 
-.bi-linkedin {
-    color: rgb(10, 100, 198);
+.p2Footer {
+
+    font-size: 15px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left: 136px;
+    margin-right: 53px;
+    font-family: Poppins;
 }
 
+.p3Footer {
+
+    font-size: 15px;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 19px;
+    margin-left: 136px;
+    margin-right: 53px;
+    font-family: Poppins;
+}
+
+.bi-linkedin {
+    margin-top: 8px;
+    display: inline-flex;
+    gap: 10px;
+     color: rgb(10, 100, 198);
+
+}
+
+
 .bi-google {
+    display: inline-flex;
+    margin-top: 8px;
+    gap: 10px;
     color: darkred;
 }
 
 .bi-github {
-
-    color: #FFFFFF;
-
+    display: inline-flex;
+    margin-top: 8px;
+    gap: 10px;
+     color: #FFFFFF;
 }
 
 .bi-browser-edge {
-    color: #004aad;
+    display: inline-flex;
+    margin-top: 8px;
+    gap: 10px;
+     color: #004aad;
 }
 
+
+.menu-options {
+    display: none;
+    background-color: #000;
+    opacity: 0.97;
+    padding: 10px;
+    position: absolute;
+    right: -20px;
+    top: 65px;
+    border-radius: 20px;
+}
+
+.menu-options li {
+    list-style: none;
+    margin: 10px 10px 10px -37px;
+}
+
+.menu-options li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
 @media screen and (max-width: 700px){
-    nav{
-        display: block;
+  nav {
+        /*display: block;*/
+        display: none;
     }
+
+    .navMobile {
+        display: grid;
+    }
+
+       .list {
+        display: grid;
+        margin: auto;
+        background-color: black;
+        width: 150px;
+    }
+
+    .menu-options.active {
+        display: grid;
+        margin-right: 145px;
+        z-index: 1;
+    }
+
+    .menu-options.active+
+
+    /* Ícone do menu */
+    .menu-icon {
+        font-size: 50px;
+        cursor: pointer;
+        color: #FFFFFF
+    }
+
+
+    .bi-list {
+        font-size: 50px;
+        cursor: pointer;
+
+    }
+
+    .bi-list:hover {
+        color: #000;
+        background: linear-gradient(#5de0e6, #004aad);
+        border-radius: 20px;
+        transition: 1s;
+    }
+
+
 
     h2{
 background-color: black;
@@ -172,6 +281,8 @@ text-align: center;
 margin: auto;
 margin-bottom: 20px;
     }
+
+
 .line{
     margin-top: 50px;
     margin: auto;
@@ -188,5 +299,51 @@ p{
 .buttons{
     margin-bottom: 20px;
 }
+
+
+    footer {
+        color: #FFFFFF;
+        display: block;
+        justify-content: center;
+        font-size: 25px;
+        gap: 30px;
+        height: 77px;
+        width: 100vw;
+        background-color: #202020;
+        margin-top: -13px;
+    }
+
+    a {
+        margin-left: 60px;
+    }
+
+    .pFooter {
+        font-size: 12px;
+        margin-left: 48px;
+        margin-top: -22px;
+    }
+
+    .p2Footer {
+        font-size: 12px;
+        justify-content: center;
+        margin-top: -27px;
+        margin-left: 189px;
+        margin-right: 36px;
+
+
+    }
+
+    .p3Footer {
+
+        font-size: 12px;
+        justify-content: center;
+        margin-top: 1px;
+        margin-bottom: -4px;
+        margin-left: 157px;
+        margin-right: 35px;
+
+    }
+
+
     
 }
